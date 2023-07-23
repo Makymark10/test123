@@ -1,0 +1,37 @@
+@use '../customize' as *;
+
+.features {
+    position: relative;
+    // padding: 1rem 0;
+
+
+    p {
+        font-size: 0.8rem;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+        }
+    }
+
+    &__content {
+        padding: 1rem;
+        margin-top: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
+
+        .icon {
+            font-size: 1.5rem;
+            color: $HACKDOG;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+}

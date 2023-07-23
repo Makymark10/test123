@@ -1,0 +1,93 @@
+@use '../customize' as *;
+
+
+//this is the intro of the website
+.display-2 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+
+    // span {
+    //     color: $primary;
+    // }
+
+
+    &--intro {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+
+        .orange {
+            color: $HACKDOG;
+        }
+    }
+
+    &--description {
+        font-size: 1rem;
+        margin: 0.2rem;
+        display: block; 
+        text-transform: none;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.3rem;
+            display: inline-block;
+        }
+    }
+}
+
+//social media links
+.heading-line::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $HACKDOG;
+}
+
+.heading-line::after {
+    content: "";
+    width: 3rem;
+    height: 0.2rem;
+    border-radius: 0 0 30px 35px;
+    padding-top: 0.5rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: $HACKDOG;
+}
+
+
+//NEW Features section
+
+.display-3 {
+    font-family: 'Poppins', sans-serif;
+
+    &--title {
+        font-size: 1.3rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        background-image: linear-gradient(to right, $HACKDOG, $hackdog);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.8rem;
+        }
+
+    }
+}
+
+//border right undeer the new features content
+
+.border-right {
+    border-right: 0.1rem solid $gray-400;
+    height: 100%;
+}
+
+.config-pb {
+    padding-bottom: 0;
+}

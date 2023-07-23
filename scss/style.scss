@@ -1,0 +1,22 @@
+
+//USE
+
+@use 'customize';
+
+//Components
+
+@use './components/animaton';
+@use './components/buttons';
+@use './components/typography';
+@use './components/forms';
+
+//Sections
+@use './sections/links';
+@use './sections/contents';
+@use './sections/faq';
+@use './sections/footer';
+@use './sections/get-started';
+@use './sections/intro-section';
+@use './sections/navbar';
+@use './sections/social-media-links';
+@use './sections/testimony';

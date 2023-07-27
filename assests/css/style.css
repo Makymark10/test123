@@ -10990,7 +10990,7 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .menu img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -11032,6 +11032,52 @@ textarea.form-control-lg {
 .social-media-links__logo-box img:hover {
   filter: grayscale(120);
   transition: 1s;
+}
+
+.feedback {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(19, 17, 17, 0.95), rgba(49, 41, 41, 0.95));
+}
+.feedback__content {
+  background-color: white;
+  padding: 2rem 1.25rem;
+  border-radius: 0.62rem;
+  height: auto;
+  text-align: center;
+}
+.feedback__content i {
+  font-size: 1.5rem;
+  color: rgba(255, 134, 21, 0.7);
+}
+.feedback__content .ratings i {
+  font-size: 1rem;
+  color: rgba(255, 134, 21, 0.7);
+}
+.feedback__name {
+  padding-top: 3.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+.feedback__name h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.feedback__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+.feedback__picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.feedback__picture img {
+  border: 0.325rem solid rgba(255, 134, 21, 0.7);
 }
 
 /*# sourceMappingURL=style.css.map */

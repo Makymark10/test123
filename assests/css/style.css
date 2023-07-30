@@ -10941,6 +10941,48 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.projects {
+  padding: 4rem 0;
+}
+.projects button {
+  text-transform: capitalize;
+}
+
+.projects-box {
+  position: relative;
+  width: 100%;
+  height: 18.5rem;
+  overflow: hidden;
+  margin-bottom: 1.8rem;
+}
+.projects-box img {
+  width: 100%;
+  height: 100%;
+}
+.projects-box .projects-info {
+  background-color: rgba(255, 134, 21, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.projects-box .projects-info .caption {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.projects-box .projects-info .caption h4 {
+  text-transform: capitalize;
+}
+.projects-box .projects-info:hover .projects-info {
+  opacity: 1;
+  visibility: visible;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(19, 17, 17, 0.95), rgba(49, 41, 41, 0.95));
   padding: 6.5rem 0 0 0;
